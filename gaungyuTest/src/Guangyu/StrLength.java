@@ -39,11 +39,7 @@ public class StrLength {
 	                pre++;  
 	                after = pre;  
 	            }  
-	        }  
-	          
-	        if((after-pre)>maxLength){  
-	            maxLength=after-pre;  
-	        }  
+	        } 
 	        return maxLength;  
 	    }  
 }  
